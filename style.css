@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background: #4a54c2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.paper {
+    width: 80%; /* Ширина листа */
+    max-width: 800px; /* Максимальная ширина */
+    min-height: 90vh; /* Высота по содержимому */
+    background: #fde394; /* Бежевый цвет бумаги */
+    /* padding: 40px 50px; Внутренние отступы */
+    position: relative;
+}
+.header-container{
+    background-color: rgb(84, 145, 35);
+    width: 100%;
+    height: 100%;
+}
+.mainPhoto{
+    display: grid;
+    padding: 10px;
+    width: 160px;
+    /* width: 220px; */
+    /* grid-template-columns: 1fr auto;  */
+    align-items: center;    
+}
+.FIO{
+    color: white;
+    float: left; /* Текст прижат к левому краю */
+    font-size: 60px;
+    width: 70%;
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+}
+.underFIO{
+    color: white;
+    float: left; /* Текст прижат к левому краю */
+    font-size: 12px;
+    width: 70%;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+}
+.nav{
+    /* text-align: center; x` */
+    margin-left: 7%;
+}
+.nav-item{
+    text-align: center;
+    font-size: 27px;
+    color: rgb(11, 43, 33);
+    text-decoration: none;
+    font-weight: 200;
+    margin: 52px;
+    margin-bottom: 1px;
+}
+.nav-item-small{
+    /* text-align: center; */
+    font-size: 17px;
+    color: rgb(11, 43, 33);
+    text-decoration: none;
+    font-weight: 100;
+    margin: 3%;
+    padding: 0px 0px 12px 19px;
+}
+
+
+
+
+.about{
+    font-family: "Barlow Condensed", sans-serif;
+    margin-left: 50px;
+    font-size: 27px;
+    font-weight: 200;
+    padding-top: 5%;
+}
+
+.aboutText{
+    padding: 5px 190px 5px 50px;
+    font-weight: 100;
+    font-size: 19px;
+}
+
+.more{
+    font-family: "Barlow Condensed", sans-serif;
+    margin-left: 50px;
+    font-size: 27px;
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+.moreText{
+    padding: 5px 190px 5px 50px;
+    font-weight: 100;
+    font-size: 19px;
+}
