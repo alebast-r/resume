@@ -1,19 +1,24 @@
 body {
     margin: 0;
-    background: #4a54c2; 
+    background: #000000; 
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-family: "Barlow Condensed", sans-serif;
+    /* font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+
+    font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-style: normal;
+    
 }
 .paper {
     width: 80%; /* Ширина листа */
     max-width: 800px; /* Максимальная ширина */
     min-height: 90vh; /* Высота по содержимому */
-    background: #fde394; /* Бежевый цвет бумаги */
+    background: #000000; /* Бежевый цвет бумаги */
     /* padding: 40px 50px; Внутренние отступы */
     position: relative;
 }
@@ -31,12 +36,15 @@ body {
     align-items: center;    
 }
 .FIO{
-    color: white;
+    color: rgb(0, 235, 20);
     float: left; /* Текст прижат к левому краю */
     font-size: 60px;
     width: 70%;
     margin: 50px 0px 0px 0px;
     text-align: center;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 .underFIO{
     color: white;
