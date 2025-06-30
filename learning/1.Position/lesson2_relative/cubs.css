@@ -1,0 +1,18 @@
+body{
+    background: #f7f6f2;
+    margin: 0;
+}
+.bg {
+    min-height: 200px;
+    background: #a1bd57;
+   }
+
+   .content{
+        width: 400px;
+        min-height: 250px;
+        margin: auto;
+        background: #fff;
+        border: 3px solid #dad6cf;
+        position: relative;
+        top: -100px
+   }

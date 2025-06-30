@@ -1,0 +1,32 @@
+body {
+    background-color: #f5f4f1;
+
+    }
+    form{
+        background: #fff;
+        width: 270px;
+        height: auto;
+        padding: 30px 50px;
+        margin: auto;
+    }
+
+    h2{
+        text-align: center;
+    }
+    .input{
+        width: 240px;
+        
+
+    }
+    .checBX{
+        text-align: right;
+        padding-right: 45px;
+    }
+
+
+    .btn{
+        width: 240px;
+        color: rgb(226, 226, 226);
+        background-color: rgb(81, 53, 53);
+        text-align: center;
+    }

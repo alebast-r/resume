@@ -1,0 +1,17 @@
+.cards{
+    position: absolute;
+    width: 145px;
+    left: 50%;
+    top: 50px;
+}
+.card3{
+    transform: rotateZ(-15deg);
+}
+
+.cardAce{
+    transform: rotateZ(15deg);
+}
+
+.cardAce:hover{
+    z-index: 2;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+        body{
+         background: #f7f6f2;
+        }
+        .cocktail {
+            display: inline-block;
+            padding: 12px;
+            margin: 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .cocktail::after, .cocktail::before {
+            content: '';
+            position: absolute;
+            z-index: 2;
+            width: 70px;
+            height: 70px;
+            left: -40px;
+            bottom: -40px;
+            transform: rotate(45deg);
+            box-shadow: 0 0 10px rgba(0,0,0,.5);
+            outline: #c2b59d dashed 1px;
+            outline-offset: -3px;
+            background: #f7f6f2;
+        }
+        .cocktail::after {
+            left: auto;
+            right: -40px;
+            top: -40px;
+        }
+        .cocktail img {
+            display: block;
+            padding: 4px;
+            background: #dad6cf;
+            border: 2px solid #c2b59d;
+        }
+    </style>
+</head>
+<body>
+    <figure class="cocktail">
+        <img src="../lesson3_absolute/image/cocktail.webp" width="200px" height="200px">
+    </figure>
+    <figure class="cocktail">
+        <img src="../lesson3_absolute/image/cocktail-2.webp" width="200px" height="200px">
+    </figure>
+</body>
+</html>
