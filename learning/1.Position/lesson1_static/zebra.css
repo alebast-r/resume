@@ -1,0 +1,35 @@
+body{
+    background-color: antiquewhite;
+}
+section{
+     height: 450px;
+    width: 300px;
+    background: white;
+    margin: 50px auto; /* Добавлен отступ сверху/снизу */
+    padding: 20px; /* Внутренний отступ */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+img{
+    height: 200px;
+    width: 300px;
+}
+
+.textZebra{
+    text-align: center;
+}
+
+.textUnder{
+    text-align: center;
+    color: gray
+}
+
+button{
+    background: #fd644a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+}

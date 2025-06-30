@@ -1,0 +1,96 @@
+.paper {
+            width: 30%;
+            height: 90%;
+            background: rgb(0, 0, 0);
+            box-shadow: 
+                0 1px 3px rgba(0,0,0,0.1), /* Тень от листа */
+                0 10px 15px rgba(0,0,0,0.1); /* Тень под листом */
+            position: relative;
+        }
+body {
+            background: #1b1b1b; /* Цвет стола */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial;
+        }
+
+.container {
+            display: flex;
+            gap: 0; /* расстояние между картинкой и текстом */
+            margin-bottom: 20px; /* отступ от следующего блока */
+        }
+
+.container img {
+            width: 30%;
+            padding-left: 5%;
+            padding-top: 5%;
+        }
+
+.container .text {
+            font-size: 90%;
+            font-family: "Press Start 2P", system-ui;
+            line-height: 1.3;
+            text-shadow: 1px 1px black, 3px 3px green;
+            color: #00fa05;
+            text-align:center;
+            padding-left: 1%;
+            padding-top: 1%;
+        }
+
+.aboutMe {
+            font-size: 90%;
+            font-family: "Press Start 2P", system-ui;
+            text-shadow: 1px 1px black, 3px 3px green;
+            color: #00fa05;
+            text-align:left;
+            padding-left: 5%;
+            padding-top: 1%;
+        }
+
+.text {
+            font-size: 55%;
+            font-family: "Press Start 2P", system-ui;
+            color: #575757;
+            text-align:left;
+            padding-left: 5%;
+            padding-top: 1%;
+            line-height: 1.3;
+      }
+
+.contacts{
+            font-size: 90%;
+            font-family: "Press Start 2P", system-ui;
+            text-shadow: 1px 1px black, 3px 3px green;
+            color: #00fa05;
+            text-align: center;
+            padding-left: 5%;
+            padding-top: 13%;
+}
+
+.contacts-text{
+            font-size: 70%;
+            font-family: "Press Start 2P", system-ui;
+            color: #575757;
+            text-align: center;
+            padding-top: 2%;
+
+}
+
+
+
+.dino-container img{
+  display: flex;
+  object-position: bottom
+}
+
+.dino-container img{
+  width: 13%;
+  display: inline-block;
+  padding-top: 2%;
+  /* padding-left: 5%; */
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
